@@ -6,15 +6,22 @@
 // salaryInSuckDick = Number(salaryInSuckDick.toFixed(3));
 // console.log("Зарплата за виконану роботу:", salaryInSuckDick);
 
-let fit = prompt("Введи число");
-fit = Number(fit);
+let vala = prompt("Введіть рандоме число в діапазоні від 0 до 100");
+vala = Number(vala);
 
-console.log(fit);
+// console.log(vala);
 
-let flip = prompt("Введи степінь обчислення");
-flip = Number(flip);
-console.log(flip);
+let gala = prompt("Введіть рандомне число яке більше ніж попереднє");
+gala = Number(gala);
 
-const result = fit ** flip;
+// console.log(gala);
 
-console.log(result) ;
+// const result = vala ** gala;
+// console.log(result);
+
+let max = gala;
+let min = vala;
+
+let result = Math.round(Math.random() * (max - min) + min);
+
+let mass = alert(result);
