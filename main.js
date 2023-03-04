@@ -22,6 +22,8 @@ gala = Number(gala);
 let max = gala;
 let min = vala;
 
-let result = Math.round(Math.random() * (max - min) + min);
+let num = Math.round(Math.random() * (max - min) + min);
 
-let mass = alert(result);
+let result= ('Ваше випадкове число: ' + num)
+
+let mass = alert( result);
