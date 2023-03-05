@@ -6,24 +6,28 @@
 // salaryInSuckDick = Number(salaryInSuckDick.toFixed(3));
 // console.log("Зарплата за виконану роботу:", salaryInSuckDick);
 
-let vala = prompt("Введіть рандоме число в діапазоні від 0 до 100");
-vala = Number(vala);
+const massege = alert(
+  'Вас вітає генератор рандомного числа, для генерації натисніть "Ок" та слідуйте підсказкам '
+);
+
+let vala = prompt("Введіть перше число");
+vala = Number.parseInt(vala);
 
 // console.log(vala);
 
-let gala = prompt("Введіть рандомне число яке більше ніж попереднє");
-gala = Number(gala);
+let gala = prompt("Введіть друге число яке від'ємне від попереднього");
+gala = Number.parseInt(gala);
 
 // console.log(gala);
 
 // const result = vala ** gala;
 // console.log(result);
 
-let max = gala;
-let min = vala;
+const max = gala;
+const min = vala;
 
-let num = Math.round(Math.random() * (max - min) + min);
+const num = Math.round(Math.random() * (max - min) + min);
 
-let result= ('Ваше випадкове число: ' + num)
+const result = "Ваше випадкове число: " + num;
 
-let mass = alert( result);
+const mass = alert(result);
